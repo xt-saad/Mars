@@ -27,7 +27,7 @@ $(document).ready(function () {
     $(this).addClass('active_1');
     $('#mars_357, #mars_358, #mars_359').removeClass('active_1');
     $('#mars_351, #mars_352, #mars_353, #mars_354').addClass('display');
-    $('#mars_351, #mars_352, #mars_353, #mars_354').removeClass('display_none');
+    $('#mars_351, #mars_352, #mars_353, #mars_354, .mars_018').removeClass('display_none');
     $('#mars_355, #mars_360, #mars_361').removeClass('display');
     $('#mars_355, #mars_360, #mars_361').addClass('display_none');
   });
@@ -39,7 +39,7 @@ $(document).ready(function () {
     $('#mars_351, #mars_352, #mars_353, #mars_354, #mars_360, #mars_361').removeClass('display');
     $('#mars_351, #mars_352, #mars_353, #mars_354, #mars_360, #mars_361').addClass('display_none');
     $('#mars_355').addClass('display');
-    $('#mars_355').removeClass('display_none');
+    $('#mars_355, .mars_018').removeClass('display_none');
   });
   /*Contact*/
   $('#mars_358').click(function () {
@@ -47,7 +47,7 @@ $(document).ready(function () {
     $(this).addClass('active_1');
     $('#mars_356, #mars_357, #mars_359').removeClass('active_1');
     $('#mars_351, #mars_352, #mars_353, #mars_354, #mars_355, #mars_361').removeClass('display');
-    $('#mars_351, #mars_352, #mars_353, #mars_354, #mars_355, #mars_361').addClass('display_none');
+    $('#mars_351, #mars_352, #mars_353, #mars_354, #mars_355, #mars_361, .mars_018').addClass('display_none');
     $('#mars_360').addClass('display');
     $('#mars_360').removeClass('display_none');
   });
@@ -57,7 +57,7 @@ $(document).ready(function () {
     $(this).addClass('active_1');
     $('#mars_356, #mars_357, #mars_358').removeClass('active_1');
     $('#mars_351, #mars_352, #mars_353, #mars_354, #mars_355, #mars_360').removeClass('display');
-    $('#mars_351, #mars_352, #mars_353, #mars_354, #mars_355, #mars_360').addClass('display_none');
+    $('#mars_351, #mars_352, #mars_353, #mars_354, #mars_355, #mars_360, .mars_018').addClass('display_none');
     $('#mars_361').addClass('display');
     $('#mars_361').removeClass('display_none');
   });
