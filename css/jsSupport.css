@@ -126,3 +126,10 @@
     position: relative !important;
   }
 }
+
+.active_btn {
+  background-color: #f66249;
+  color: #fff;
+  border-color: #f66249;
+}
+
