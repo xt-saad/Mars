@@ -2852,6 +2852,18 @@ $(document).ready(function () {
   });
 /*For Categories Men's Fashion ends*/
 
+/*Contact Page Starts*/
+  $('#mars_880').mouseenter(function () {
+    $(this).removeClass('active_1');
+    $(this).addClass('active_btn');
+  });
+
+  $('#mars_880').mouseleave(function () {
+    $(this).removeClass('active_btn');
+    $(this).addClass('active_1');
+  });
+/*Contact Page Ends*/
+  
 /*Footer Columns starts*/
   $('.mars_284').mouseenter(function () {
     $(this).addClass('active_1');
